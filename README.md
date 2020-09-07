@@ -39,7 +39,6 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [How to Train ?](#How-to-Train-?)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -72,7 +71,7 @@ The data was collected by Stanford researchers and was used in a 2011 paper [PDF
 ![Embedding Projector](https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/blob/master/Building%20Embedding%20matrix/Embedding%20Projection/embedding%20projections.gif)
 
 ### Built With
-This chatbot was build using following frameworks, libraries and softwares.
+This was build using following frameworks, libraries and softwares.
 * [Tensorflow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
 * [Matplotlib](https://matplotlib.org/)
