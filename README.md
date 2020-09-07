@@ -1,7 +1,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]](https://github.com/aadimangla/Rasa-Chatbot/issues)
+[![Issues][issues-shield]](https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/issues)
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -14,7 +14,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h3 align="center">Customer Service Chatbot</h3>
+  <h3 align="center">IMDB Movie Reviws Sentiment Analysis</h3>
 
   <p align="center">
     <!-- An awesome README template to jumpstart your projects! -->
@@ -26,7 +26,7 @@
     ·
     <a href="">Report Bug</a>
     · -->
-    <a href="https://github.com/aadimangla/Rasa-Chatbot/issues">Request Feature</a>
+    <a href="https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/issues">Request Feature</a>
   </p>
 </p>
 
@@ -54,22 +54,19 @@
 
 [![Product Name Screen Shot][product-screenshot]](images/product.png)
 
-Customer service bot is a bot that uses artificial intelligence (AI) and machine learning to answer basic customer questions via a business messenger. It can recognize and answer multiple forms of the same question and can be trained to give instant responses using your preferred voice or text.
+It analyses the movie review entered by a user for any specific movie and analyses what is the sentiment of the review. It helps the companies rate the movie and understand crowd sentiment regarding it. Sentiment analysis is a natural language processing problem where text is understood and the underlying intent is predicted. Sentiment analysis, also called opinion mining, is the field of study that analyzes people’s opinions, sentiments, evaluations, appraisals, attitudes, and emotions towards entities such as products, services, organizations, individuals, issues, events, topics, and their attributes
 
 Here's why:
-* AI chatbots use your existing information and resources, like FAQs or knowledge base articles, to help answer and resolve your customers’ questions. 
-* They can recognize and answer multiple forms of the same question and can be trained to give instant responses using your preferred voice and tone.
-* Chatbots offers instant resolutions
-*Your business can offer 24/7 conversational support
-*Chatbots continuously learn
-* You can tailor answers to different types of customers 
-* Your team has more context on each customer
-* A consistent user experience is created
+* Sentiment analysis has long been a problem for business, marketing and management areas for more
+value earned in the decision process
+* Sentiment Analysis also helps organisations measure the ROI of their marketing campaigns and improve their customer service.
+* Since sentiment analysis gives the organisations a sneak peek into their customer’s emotions, they can be aware of any crisis that’s to come well in time – and manage it accordingly.
 
-Chatbots and AI received a major facelift in recent years. The once futuristic-yet-a-pain-in-the-butt digital assistants are being fueled with more data to better serve customers and drive sales.
+The dataset is the [arge Movie Review Dataset](http://ai.stanford.edu/~amaas/data/sentiment/) often referred to as the IMDB dataset.
 
-Is it worth the time and money investment? It depends on your industry and company needs. But today’s sophisticated bot infrastructures have a lot to offer that most businesses can benefit from.
+The Large Movie Review Dataset (often referred to as the IMDB dataset) contains 25,000 highly polar moving reviews (good or bad) for training and the same amount again for testing. The problem is to determine whether a given moving review has a positive or negative sentiment.
 
+The data was collected by Stanford researchers and was used in a 2011 paper [PDF](http://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf) where a split of 50/50 of the data was used for training and test.
 ### Built With
 This chatbot was build using following frameworks, libraries and softwares.
 * [RASA](https://rasa.com/)
@@ -155,7 +152,7 @@ _For more examples, please refer to the [Article](https://chatbotsmagazine.com/t
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/aadimangla/Rasa-Chatbot/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/issues) for a list of proposed features (and known issues).
 
 
 
@@ -184,7 +181,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Aditya Mangla - [@aadimangla](https://twitter.com/aadimangla) - aadimangla@gmail.com - [adityamangla.com](http://www.adityamangla.com/index.html)
 
-Project Link: [https://github.com/aadimangla/Rasa-Chatbot](https://github.com/aadimangla/Rasa-Chatbot)
+Project Link: [https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis](https://github.com/aadimangla/Rasa-Chatbot)
 
 
 
@@ -199,16 +196,16 @@ Project Link: [https://github.com/aadimangla/Rasa-Chatbot](https://github.com/aa
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/aadimangla/Rasa-Chatbot.svg?style=flat-square
-[contributors-url]: https://github.com/aadimangla/Rasa-Chatbot/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/aadimangla/Rasa-Chatbot.svg?style=flat-square
-[forks-url]: https://github.com/aadimangla/Rasa-Chatbot/network/members
-[stars-shield]: https://img.shields.io/github/stars/aadimangla/Rasa-Chatbot.svg?style=flat-square
-[stars-url]: https://github.com/aadimangla/Rasa-Chatbot/stargazers
-[issues-shield]: https://img.shields.io/github/issues/aadimangla/Rasa-Chatbot.svg?style=flat-square
-[issues-url]: https://github.com/aadimangla/Rasa-Chatbot/issues
-[license-shield]: https://img.shields.io/github/license/aadimangla/Rasa-Chatbot.svg?style=flat-square
-[license-url]: https://github.com/aadimangla/Rasa-Chatbot/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis.svg?style=flat-square
+[contributors-url]: https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis.svg?style=flat-square
+[forks-url]: https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/network/members
+[stars-shield]: https://img.shields.io/github/stars/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis.svg?style=flat-square
+[stars-url]: https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/stargazers
+[issues-shield]: https://img.shields.io/github/issues/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis.svg?style=flat-square
+[issues-url]: https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/issues
+[license-shield]: https://img.shields.io/github/license/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis.svg?style=flat-square
+[license-url]: https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/aadimangla
 [product-screenshot]: images/screenshot.png
