@@ -31,7 +31,7 @@
 </p>
 
 
-
+---
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -47,7 +47,7 @@
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
-
+---
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -67,15 +67,22 @@ The dataset is the [arge Movie Review Dataset](http://ai.stanford.edu/~amaas/dat
 The Large Movie Review Dataset (often referred to as the IMDB dataset) contains 25,000 highly polar moving reviews (good or bad) for training and the same amount again for testing. The problem is to determine whether a given moving review has a positive or negative sentiment.
 
 The data was collected by Stanford researchers and was used in a 2011 paper [PDF](http://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf) where a split of 50/50 of the data was used for training and test.
+
+### Embedding Projection
+![Embedding Projector](https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/blob/master/Building%20Embedding%20matrix/Embedding%20Projection/embedding%20projections.gif)
+
 ### Built With
 This chatbot was build using following frameworks, libraries and softwares.
-* [RASA](https://rasa.com/)
-* [Spacy](https://spacy.io/)
-* [NLTK](https://www.nltk.org/)
+* [Tensorflow](https://www.tensorflow.org/)
+* [Keras](https://keras.io/)
+* [Matplotlib](https://matplotlib.org/)
 
-
-
+---
 <!-- GETTING STARTED -->
+## Getting Started
+
+To run this project you need to follow the following steps.
+
 ## Getting Started
 
 To run this project you need to follow the following steps.
@@ -85,24 +92,14 @@ To run this project you need to follow the following steps.
 These are the prerequisites you need to build this bot as well as run it.
 
 ```sh
-$ pip3 install  rasa==1.10.8
-$ pip3 install rasa[spacy]
-$ python -m spacy download en_core_web_md
-$ python -m spacy link en_core_web_md en
-$ pip3 install  pandas==1.1.0
-$ pip3 install  nltk==3.5
-$ pip3 install fuzzywuzzy==0.18.0
+cmd:\ pip install tensorflow
+cmd:\ pip install keras
 ```
 #### Extra SETUP
 - Create conda environment and create project in this environment
 - After installing requirements in above Modules LIST
-- To add custom component to rasa
-    -   Add current working directory of this project in your python environment variable      -   eg: PATH = D:\Projects\...\Restaurant-Bot-Automation
-- To set the console channel Timeout in seconds
-    -  Go to Anaconda3\envs\{your_rasa_env}\Lib\site-packages\rasa\core\channels\console.py
-    -  And set DEFAULT_STREAM_READING_TIMEOUT_IN_SECONDS=200 
-
-#### How to Train ?
+- You need python idle such as Jupyter notebook or spyder
+<!-- #### How to Train ?
 - ##### To use default Rasa configs
 ```sh
 $ rasa train
@@ -111,8 +108,9 @@ $ rasa train
 ```sh
 $ rasa train -c spacy_config.yml
 ```
+-->
 
-#### How to run 
+<!-- #### How to run 
 - ##### To run action server
 ```sh
 $ rasa run actions --actions actionserver.actions
@@ -125,29 +123,32 @@ $ rasa shell --debug
 ```sh
 $ rasa shell
 ```
+-->
 
-
-
+---
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-IBM estimates that 265 billion customer support tickets and calls are made globally every year, resulting in $1.3 trillion in customer service costs. IBM also referenced a Chatbots Magazine figure purporting that implementing customer service AI solutions, such as chatbots, into service workflows can reduce a business’ spend on customer service by 30 percent.
-Here are the key areas for how customer service chatbots help businesses to deliver better support.
+Sentiment analysis is like having a private detective listening to what your customers are saying—everywhere.
 
-* Deliver instant customer support
-* 24×7 availability
-* Deliver seamless hybrid support along with live chat 
-* Easy scalability
-* Reduce your cost of customer support with bots
-* Reduce support tickets
-* Collect customer feedback & information
-* Automate your social media support
-* Minimize IVR frustrations
-* Better chatbot support = higher customer happiness!!
+Sure, your customers might give some feedback to your customer service team directly. But they are also going to give their honest opinion on other platforms such as Facebook, discussion forums, Amazon, Twitter… the list really is endless.
+Advanced sentiment analysis can not only uncover what customers are saying, but why they are saying it.
+Here are the key areas for how sentiment analysis help businesses.
 
-_For more examples, please refer to the [Article](https://chatbotsmagazine.com/top-5-benefits-with-using-chatbots-for-your-business-159a0cee7d8a)_
+* Brand Monitoring
+* Improving Your Customer Support
+* Tracking Your Employees’ Feedback
+* Providing Better Product Analytics
+* Monitoring Market Research
+* Keeping an Eye on Your Competition
+* Tracking User Generated Content
+* Uncovering Brand Influencers
+* Social Media Monitoring
+* Managing a Crisis Better
 
+_For more examples, please refer to the [Article](https://www.wonderflow.co/blog/sentiment-analysis-examples)_
 
+---
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -155,7 +156,7 @@ _For more examples, please refer to the [Article](https://chatbotsmagazine.com/t
 See the [open issues](https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/issues) for a list of proposed features (and known issues).
 
 
-
+---
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -167,14 +168,19 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
+---
 
 <!-- LICENSE -->
+
+
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2020 © <a href="http://adityamangla.com" target="_blank">Aditya Mangla</a>.
 
+---
 
 <!-- CONTACT -->
 ## Contact
@@ -183,13 +189,14 @@ Aditya Mangla - [@aadimangla](https://twitter.com/aadimangla) - aadimangla@gmail
 
 Project Link: [https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis](https://github.com/aadimangla/Rasa-Chatbot)
 
-
+---
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [RASA](https://rasa.com/)
-* [RASA Forums](https://forum.rasa.com/)
-
+* [Tensorflow](https://www.tensorflow.org/)
+* [Keras](https://keras.io/)
+* [Matplotlib](https://matplotlib.org/)
+* [Embedding Projector](https://projector.tensorflow.org/)
 
 
 
