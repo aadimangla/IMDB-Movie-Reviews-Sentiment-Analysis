@@ -187,7 +187,7 @@ Contributions are what make the open source community such an amazing place to b
 
 Aditya Mangla - [@aadimangla](https://twitter.com/aadimangla) - aadimangla@gmail.com - [adityamangla.com](http://www.adityamangla.com/index.html)
 
-Project Link: [https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis](https://github.com/aadimangla/Rasa-Chatbot)
+Project Link: [https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis](https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis)
 
 ---
 
