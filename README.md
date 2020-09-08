@@ -10,9 +10,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-<!--   <a href="">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
+   <a href="">
+    <img src="images/logo.png" alt="Logo" width="100%" height="100%">
+  </a> 
 
   <h1 align="center">IMDB Movie Reviws Sentiment Analysis</h1>
 
